@@ -1,0 +1,11 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "ES6",
+    // DOM을 넣으면 documnet를 인지한다 -> 브라우저 지원
+    "lib": ["ES6", "dom"],
+    "strict": true, // 보호모드,
+    "allowJs": true
+  }
+}
